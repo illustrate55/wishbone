@@ -26,6 +26,15 @@ p {
     color: #403E3B;
 }
 
+small {
+    color: #645C55;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -109,14 +118,14 @@ p {
     max-width: 510px;
 }
 
-.main__small-text {
+/* .main__small-text {
     color: #645C55;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
-}
+} */
 
 .main__title {
     margin-top: 20px;
@@ -205,6 +214,7 @@ p {
 
 .reeding-house__text {
     padding: 266px 0 266px;
+    margin-right: 80px;
     max-width: 285px;
 }
 
@@ -218,5 +228,49 @@ p {
 }
 
 .reeding-house__disc {
+    color: #645C55;
+}
+
+/* PROCESS */
+
+.process {
+    padding: 100px 0;
+}
+
+.process__inner {
+    text-align: center;
+}
+
+.process__title {
+    margin-top: 13px;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 42px;
+}
+
+.process__card-inner {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.process__card-item {
+    max-width: 379px;
+}
+
+.process__card-title {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #403E3B;
+}
+
+.process__card-disc {
+    margin-top: 10px;
+    max-width: 285px;
+    font-size: 15px;
     color: #645C55;
 }
