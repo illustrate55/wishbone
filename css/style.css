@@ -313,7 +313,7 @@ small {
 
 .prior-clients {
     background-color: #403E3B;
-    padding: 60px 0 60px 136px;
+    padding: 60px 0 60px;
 }
 
 .prior-clients__inner {
@@ -348,6 +348,7 @@ small {
     font-size: 15px;
     line-height: 24px;
     color: #ECE7E4;
+    max-width: 451px;
 }
 
 .prior-clients__logos-inner {
