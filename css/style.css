@@ -274,3 +274,121 @@ small {
     font-size: 15px;
     color: #645C55;
 }
+
+/* STAIRCASE */
+
+.staircase {
+    background-image: url(../img/staircase-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.staircase__inner {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.staircase__text {
+    padding: 266px 0 266px;
+    margin-right: 80px;
+    max-width: 285px;
+}
+
+.staircase__title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #403E3B;
+}
+
+.staircase__disc {
+    color: #645C55;
+}
+
+/* PRIOR CLIENTS */
+
+.prior-clients {
+    background-color: #403E3B;
+    padding: 60px 0 60px 136px;
+}
+
+.prior-clients__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 132px;
+}
+
+.prior-clients__text-inner {
+    max-width: 460px;
+}
+
+.prior-clients__small {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: #ECE7E4;
+}
+
+.prior-clients__title {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #fff;
+}
+
+.prior-clients__disc {
+    margin-top: 14px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #ECE7E4;
+}
+
+.prior-clients__logos-inner {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 96px;
+    max-width: 432px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+/* STAIRCASE */
+
+.swirling {
+    background-image: url(../img/swirling-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.swirling__inner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.swirling__text {
+    padding: 266px 0 266px;
+    margin-left: 80px;
+    max-width: 285px;
+}
+
+.swirling__title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #403E3B;
+}
+
+.swirling__disc {
+    color: #645C55;
+}
