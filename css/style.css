@@ -574,3 +574,27 @@ small {
     display: inline-block;
     padding: 11px 20px;
 }
+
+/* FOOTER */
+
+.footer {
+    padding: 60px 0;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.footer__disc {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #645C55;
+}
+
+.footer__logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
