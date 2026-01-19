@@ -195,6 +195,8 @@ small {
     font-size: 14px;
     line-height: 14px;
     color: #645C55;
+    text-transform: none;
+    letter-spacing: normal;
 }
 
 /* REEDING HOUSE */
@@ -399,6 +401,11 @@ small {
 .featured-projects {
     padding-top: 120px;
     padding-bottom: 100px;
+    background-color: #F7F7F7;
+}
+
+.featured-projects__inner {
+    padding: 0 16px;
 }
 
 .featured-projects__text-inner {
@@ -490,6 +497,80 @@ small {
 }
 
 .featured-projects__link {
+    display: inline-block;
+    padding: 11px 20px;
+}
+
+/* TEAM */
+
+.team {
+    padding: 100px 0 100px;
+}
+
+.team__inner {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.team__text-wrapper {
+    max-width: 378px;
+}
+
+.team__title {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #403E3B;
+}
+
+.team__disc {
+    margin-top: 14px;
+    font-size: 15px;
+    color: #645C55;
+}
+
+.team__link {
+    display: inline-block;
+    padding: 11px 20px;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.team__persones {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 36px 120px;
+}
+
+.ourfirm__message-author {
+    padding: 8px 0;
+}
+
+/* GET IN TOUCH */
+
+.get-in-touch {
+    padding: 100px 0;
+    background-color: #CEC4BC;
+}
+
+.get-in-touch__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.get-in-touch__text-wrapper {
+    max-width: 576px;
+}
+
+.get-in-touch__title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+}
+
+.get-in-touch__link {
     display: inline-block;
     padding: 11px 20px;
 }
